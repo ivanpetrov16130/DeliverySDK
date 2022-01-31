@@ -13,7 +13,10 @@ public struct OrdersView: View {
     
     public var body: some View {
         SharedView()
-            .overlay(Text("Orders Feature"))
+            .overlay(
+                Text("Orders Feature")
+                    .foregroundColor(Color.white)
+            )
     }
     
     public init() {}
