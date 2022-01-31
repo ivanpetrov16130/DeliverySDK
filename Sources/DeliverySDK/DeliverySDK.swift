@@ -1,5 +1,5 @@
 public struct DeliverySDK {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "Hello, DeliverySDK!"
 
     public init() {
     }
