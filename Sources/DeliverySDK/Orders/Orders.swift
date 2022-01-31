@@ -16,4 +16,6 @@ public struct OrdersView: View {
             .overlay(Text("Orders Feature"))
     }
     
+    public init() {}
+    
 }
